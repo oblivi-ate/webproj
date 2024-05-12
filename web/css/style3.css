@@ -1,0 +1,68 @@
+/* 新增样式用于省份介绍 */
+#province-intro {
+    padding: 20px 20px 20px 20px;
+}
+
+#province-intro h2 {
+    font-size: 24px; /* 增加标题的字体大小 */
+    color: #007bff; /* 设置标题颜色为蓝色 */
+    margin-bottom: 10px; /* 增加标题与分隔线之间的间距 */
+}
+
+#province-intro hr {
+    border: none; /* 移除默认分隔线的边框 */
+    border-top: 2px solid #ccc; /* 添加分隔线的顶部边框 */
+    margin: 10px 0 20px; /* 调整分隔线与内容之间的间距 */
+}
+
+#province-intro p {
+    font-size: 16px; /* 设置介绍文字的字体大小 */
+    line-height: 1.5; /* 设置行高为1.5倍 */
+    color: #333; /* 设置文字颜色为深灰色 */
+}
+
+/* 新增样式用于大学介绍 */
+.university {
+    display: flex;
+    margin-bottom: 30px; /* 增加大学介绍之间的间距 */
+}
+
+.university img {
+    width: 200px; /* 控制图片的宽度 */
+    height: auto; /* 让高度自适应 */
+    margin-right: 20px; /* 图片与文字之间的间距 */
+}
+
+.university div {
+    flex: 1; /* 让文字占据剩余的空间 */
+}
+
+.university h3 {
+    font-size: 20px; /* 设置大学标题的字体大小 */
+    color: #007bff; /* 设置标题颜色为蓝色 */
+    margin-bottom: 10px; /* 增加标题与介绍之间的间距 */
+}
+
+.university p {
+    font-size: 16px; /* 设置介绍文字的字体大小 */
+    line-height: 1.5; /* 设置行高为1.5倍 */
+    color: #333; /* 设置文字颜色为深灰色 */
+}
+
+/* 添加登录按钮样式 */
+.openbarrage {
+    background-color:#007bff; /* 深绿色背景 */
+    color: white; /* 白色字体 */
+    border: none; /* 没有边框 */
+    border-radius: 5px; /* 圆角边框 */
+    padding: 15px 32px; /* 更大的内边距 */
+    text-align: center; /* 文本居中 */
+    text-decoration: none; /* 去掉下划线 */
+    display: inline-block;
+    font-size: 16px; /* 字体大小 */
+    margin-top: 20px; /* 调整按钮与内容的间距 */
+}
+
+.openbarrage:hover {
+    background-color: #45a049; /* 鼠标悬停时的背景颜色 */
+}

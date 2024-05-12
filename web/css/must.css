@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    /* 使用更加现代的字体 */
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333333;
+}
+
+header {
+    /* 添加渐变背景 */
+    padding: 1.5rem;
+    text-align: center;
+    /* 添加阴影效果 */
+}
+
+header h1 {
+    font-size: 3.5rem;
+    /* 调整字体大小 */
+    margin-bottom: .5rem;
+    /* 添加底部边距 */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    /* 添加颜色过渡效果 */
+}
+
+nav ul li a:hover {
+    color: #a8d0e6;
+    /* 鼠标悬停时的颜色 */
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    /* 增加圆角 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* 调整阴影效果 */
+    transition: transform 0.3s ease;
+    /* 添加变形过渡效果 */
+}
+
+section:hover {
+    /*是一个样式 就是鼠标悬停在元素上时的样式*/
+    transform: translateY(-5px);
+    /* 鼠标悬停时轻微上移 */
+}
+

@@ -1,0 +1,48 @@
+/*用于主页面的搜索功能的*/
+#searchInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: white; /* 设置输入框内文字为白色 */
+    background-color: transparent;
+}
+#searchInput::placeholder {
+    color: white; /* 设置placeholder颜色为白色 */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#suggestions {
+    margin-top: 10px;
+}
+
+#suggestions div {
+    padding: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: black;
+}
+
+#suggestions div:hover {
+    background-color: transparent;
+}
+
+
+

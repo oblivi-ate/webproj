@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大湾区学校概况</title>
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style6.css">
+    <link rel="stylesheet" href="css/slider.css"> <!-- 引入轮播图样式表 -->
+    <link rel="stylesheet" href="css/comments.css">
+</head>
+
+<body>
+    <header>
+        <h1>大湾区学校概况</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="guangzhou.html">广州</a></li>
+                <li><a href="shenzhen.html">深圳</a></li>
+                <li><a href="zhuhai.html">珠海</a></li>
+                <li><a href="hongkong.html">香港</a></li>
+                <li><a href="macau.html">澳门</a></li>
+                <li><input type="text" id="searchInput" placeholder="请输入搜索内容" oninput="suggest()">
+                    <button onclick="search()">搜索</button>
+                    <div id="suggestions"></div>
+                    <script src="js/search.js"></script>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- 轮播图开始 -->
+    <div class="slider">
+        <div class="slides">
+            <img src="img/JPG1.jpg" alt="Slide 1">
+            <img src="img/JPG2.jpg" alt="Slide 2">
+            <img src="img/JPG3.jpg" alt="Slide 3">
+            <img src="img/JPG4.jpg" alt="Slide 4">
+            <img src="img/JPG5.jpg" alt="Slide 5">
+        </div>
+        <div class="slider-controls">
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+        </div>
+    </div>
+
+
+
+
+    <!-- 轮播图结束 -->
+    <div class="space"></div>
+    <main>
+        <section id="home" >
+            <h2>欢迎来到大湾区学校概况</h2>
+            <p>这里是您探索广东省及周边地区高等教育的最佳起点。大湾区，作为中国改革开放的前沿和经济增长的引擎，其教育事业也蓬勃发展，成为培养人才、推动科技创新的重要基地。
+
+                我们将为您展示香港大学、澳门科技大学、中山大学、华南理工大学、深圳大学等顶尖学府的辉煌历程和卓越成就。这些学府不仅在教学质量上屡获殊荣，更在科研领域取得了丰硕成果，为大湾区乃至整个国家的发展做出了突出贡献。
+
+                通过我们的网站，您将深入了解大湾区教育的多彩风采，感受到其教育创新的活力和未来发展的无限可能。无论您是寻找学习机会，还是对大湾区教育发展感兴趣，我们都竭诚欢迎您的访问。让我们一同见证大湾区学府的光辉，共同分享这片土地为教育事业所取得的辉煌成就。
+            </p>
+        </section>
+
+   
+       
+        
+        <!--新闻轮播图的实现-->
+        
+        <div class="carousel-container">
+            <div style="text-align: center;margin-top: 20px;">
+                <h2>湾区新闻</h2>
+            </div>
+            <div class="carousel">
+                <div class="carousel-item">
+                    <a href=https://www.msn.cn/zh-cn/news/other/%E4%BF%83%E8%BF%9B%E6%96%87%E5%8C%96%E8%9E%8D%E5%90%88%E4%B8%8E%E9%9D%92%E5%B9%B4%E6%88%90%E9%95%BF-%E7%B2%A4%E6%B8%AF%E6%BE%B3%E5%A4%A7%E6%B9%BE%E5%8C%BA%E8%AF%BB%E4%B9%A6%E8%AE%BA%E5%9D%9B%E4%B8%BE%E8%A1%8C/ar-AA1nqKxf>
+                        <img src="img/news.jpg" alt="Image 1">
+                        <p>【最新消息】促进文化融合与青年成长，粤港澳大湾区读书论坛举行</p>
+                    </a>
+                    <div style="text-align: left; color: gray; font-family: Arial, sans-serif;">南方都市报 2024/4/22
+                     
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href=https://www.sohu.com/a/773588647_115377>
+                        <img src="img/news2.jpg" alt="Image 2">
+                        <p>【最新消息】粤港澳大湾区板块4月22日跌0.92%，深城交领跌，主力资金净流出11.1亿元</p>
+                    </a>
+                    <div style="text-align: left; color: gray; font-family: Arial, sans-serif;">搜狐网 2024/4/23
+                     
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href=https://www.msn.cn/zh-cn/news/other/2024%E5%B9%B4%E5%85%A8%E5%9B%BD%E6%96%87%E5%8C%96%E5%92%8C%E6%97%85%E6%B8%B8%E6%B6%88%E8%B4%B9%E4%BF%83%E8%BF%9B%E6%B4%BB%E5%8A%A8%E5%9C%A8%E7%8F%A0%E5%90%AF%E5%8A%A8%E7%8F%A0%E6%B5%B7%E5%B0%86%E4%B8%BE%E5%8A%9E%E7%B2%A4%E6%B8%AF%E6%BE%B3%E5%A4%A7%E6%B9%BE%E5%8C%BA%E8%A1%97%E8%88%9E%E5%A4%A7%E4%BC%9A/ar-AA1nxECw>
+                        <img src="img/news3.jpg" alt="Image 1">
+                        <p>【最新消息】2024年全国文化和旅游消费促进活动在珠启动珠海将举办粤港澳大湾区街舞大会</p>
+                    </a>
+                    <div style="text-align: left; color: gray; font-family: Arial, sans-serif;">潇湘晨报 2024/4/24
+                     
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href=https://www.msn.cn/zh-cn/news/other/%E7%B2%A4%E6%B8%AF%E6%BE%B3%E5%A4%A7%E6%B9%BE%E5%8C%BA%E5%87%BA%E6%B5%B7%E5%86%8D%E6%B7%BB%E6%96%B0%E9%80%9A%E9%81%93-%E4%BA%A7%E4%B8%9A-%E7%89%A9%E6%B5%81-%E5%B8%A6%E5%8A%A8-%E6%B9%BE%E5%8C%BA%E5%88%B6%E9%80%A0-%E9%80%9A%E8%BE%BE%E4%B8%96%E7%95%8C/ar-AA1nh5mP>
+                        <img src="img/news4.jpg" alt="Image 1">
+                        <p>【最新消息】粤港澳大湾区出海再添新通道 “产业+物流”带动“湾区制造”通达世界</p>
+                    </a>
+                    <div style="text-align: left; color: gray; font-family: Arial, sans-serif;"> 人民资讯2024/4/19
+                     
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href=https://www.chinanews.com.cn/dwq/2024/04-30/10209672.shtml>
+                        <img src="img/xinwen5.jpg" alt="Image 1">
+                        <p>【最新消息】港科大投放5亿港元成立创新创业基地</p>
+                    </a>
+                    <div style="text-align: left; color: gray; font-family: Arial, sans-serif;">中国新闻网 2024/4/30
+                     
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href=https://www.cnbayarea.org.cn/news/focus/content/post_1240021.html>
+                        <img src="img/xinwen6.jpg" alt="Image 1">
+                        <p>【最新消息】10项科技政策正在申报!横琴助推科创企业发展</p>
+                    </a>
+                    <div style="text-align: left; color: gray; font-family: Arial, sans-serif;">粤港澳大湾区门户网 2024/4/26
+                     
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+
+        <!-- 主要文字的实现-->
+            <h2>&nbsp;</h2>
+            <h2>&nbsp;</h2>
+        <div class="container">
+            <div class="left-side">
+                <img src="img/read1.jpg" alt="描述性文字">
+            </div>
+            <div class="right-side">
+                <div class="text-content">
+                    <h1>粤港澳高校在线课程开放联盟</h1>
+                    <p>粤港澳高校在线课程开放联盟"
+                        是一个教育合作平台，旨在促进中国大陆的广东省、香港特别行政区和澳门特别行政区之间的高等教育合作。这个联盟可能涉及共享教育资源、开放在线课程、促进学术交流和研究合作等方面。通过这种跨地区的合作，联盟致力于提高教育质量，拓宽学生和教师的视野，以及增强三地高等教育机构的全球竞争力。
+                    </p>
+                    <a href="https://www.gdhkmooc.com/portal/league/getGdcourses?schoolId=1858" class="button">了解更多</a>
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="left-side">
+                <div class="text-content">
+                    <h1>大湾区青年就业计划</h1>
+                    <p>
+                        粤港澳大湾区为香港的企业和青年创造庞大的发展机会。 香港特别行政区政府2021年试行大湾区青年就业计划（下称计划），获得参与企业及青年的非常正面评价。 劳工处自2023年起恒常推行计划，继续鼓励企业提供职位，聘请香港青年到大湾区内地城市工作，促进他们的事业发展及大湾区内的人才交流。
+
+                       2024年度计划现正展开。 在香港及大湾区内地城市均有业务的企业，按照香港法例及以不低于月薪18,000港元，聘请并派驻香港青年到大湾区内地城市工作及接受在职培训，即可参加。 劳工处向企业发放每名参与青年每月10,000港元的津贴，为期最长18个月。
+
+                      参加计划的青年须持有香港或香港以外的大学/大专院校在2022年至2024年颁发的学士或以上学位，并为可合法在香港受雇工作的香港居民。
+                    </p>
+                    <a href="https://www2.jobs.gov.hk/0/tc/information/gbayes/" class="button">了解更多</a>
+                </div>
+            </div>
+            <div class="right-side">
+                <img src="img/read2.jpg" alt="描述性文字">
+            </div>
+        </div>
+        <div class="container">
+            <div class="left-side">
+                <img src="img/read3.jpg" alt="描述性文字">
+            </div>
+            <div class="right-side">
+                <div class="text-content">
+                    <h1>大湾区高校竞赛</h1>
+                    <p>粤港澳大湾区高校竞赛是为促进粤港澳大湾区内高校学生之间的学术交流与合作而举办的比赛活动。参赛者通过团队合作完成各项挑战任务，展示团队合作能力、创新思维和专业知识。这项竞赛不仅是学生展示个人才华的舞台，也是促进大湾区高校教育发展和提升的重要平台。通过竞赛，学生能结识志同道合的伙伴，拓展视野，提升综合能力，为未来职业发展奠定基础。</p>
+                    <a href="https://ghm.7ipr.com/#/" class="button">了解更多</a>
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="left-side">
+                <div class="text-content">
+                    <h1>粤港澳高校交流活动</h1>
+                    <p>粤港澳高校交流是粤港澳大湾区高校之间开展的学术、文化和人才交流活动。通过交流，不仅可以促进各高校之间的合作与共享资源，还可以推动教育质量和水平的提升。学生参与交流活动可以拓展视野、增进跨文化交流能力，同时结识来自不同地区的优秀同龄人，为未来的学术与职业发展打下坚实基础。粤港澳高校交流活动有助于推动大湾区高等教育一体化发展，促进区域内高校间的合作与发展，为建设更加繁荣、开放的大湾区教育体系做出贡献。</p>
+                    <a href="https://www.ghmy.org" class="button">了解更多</a>
+                </div>
+            </div>
+            <div class="right-side">
+                <img src="img/reading5.jpg" alt="描述性文字">
+            </div>
+        </div>
+        <!--用于实现底部的学校图片展示-->
+    
+        <div class="quick">
+            <div style="text-align: center; margin: 20px auto 50px;">
+                <h2>快速链接</h2>
+            </div>
+            <div class="image-grid">
+                <!-- 第一行 -->
+                <a href="https://www.must.edu.mo/" class="image-item">
+                    <img src="img/school1.jpg" alt="澳门科技大学">
+                    <span>澳门科技大学</span>
+                </a>
+                <a href="https://www.um.edu.mo/" class="image-item">
+                    <img src="img/school2.jpg" alt="描述2">
+                    <span>澳门大学</span>
+                </a>
+                <a href="https://www.hku.hk/" class="image-item">
+                    <img src="img/school3.jpg" alt="描述3">
+                    <span>香港大学</span>
+                </a>
+                <a href="https://www.cuhk.edu.hk/" class="image-item">
+                    <img src="img/school4.jpg" alt="描述4">
+                    <span>香港中文大学</span>
+                </a>
+                <!-- 第二行-->
+                <a href="https://www.sysu.edu.cn/" class="image-item">
+                    <img src="img/school5.jpg" alt="澳门科技大学">
+                    <span>中山大学</span>
+                </a>
+                <a href="https://www.scut.edu.cn/" class="image-item">
+                    <img src="img/school6.jpg" alt="描述2">
+                    <span>华南理工大学</span>
+                </a>
+                <a href="https://www.szu.edu.cn/" class="image-item">
+                    <img src="img/school7.jpg" alt="描述3">
+                    <span>深圳大学</span>
+                </a>
+                <a href="https://www.sustech.edu.cn/" class="image-item">
+                    <img src="img/school8.jpg" alt="描述4">
+                    <span>南方科技大学</span>
+                </a>
+                <!-- 第三行-->
+                <a href="https://www.jnu.edu.cn/" class="image-item">
+                    <img src="img/school9.jpg" alt="澳门科技大学">
+                    <span>暨南大学</span>
+                </a>
+                <a href="https://www.bnuzh.edu.cn/" class="image-item">
+                    <img src="img/school10.jpg" alt="描述2">
+                    <span>北京师范大学珠海分校</span>
+                </a>
+                <a href="https://www.polyu.edu.hk" class="image-item">
+                    <img src="img/school11.jpg" alt="描述3">
+                    <span>香港理工大学</span>
+                </a>
+                <a href="https://www.bitzh.edu.cn/index/#/" class="image-item">
+                    <img src="img/school12.jpg" alt="描述4">
+                    <span>北京理工大学珠海学院</span>
+                </a>
+            </div>
+            <div class="inner-content" style="margin-bottom: 50px;"><!--用来调整底边距离-->
+        
+        </div>
+
+        
+
+        <br>
+        <br>
+        <br>
+
+        <div class="inner-content" style="margin-bottom: 70px;"><!--用来调整底边距离-->
+        <div class="rear">
+            <div class="rear-content">
+                <div class="column">
+                    <p><strong>MUST 软件工程 </strong></p>
+                    <p>软件工程 </p>
+                    <p>郑奥 邱子晰 李子序</p>
+                    <p>联系我们:19358591433</p>
+                    <p>地址：中国澳门氹仔伟龙马路</p>
+                    <p>&copy; 2024 大湾区学校概况</p>
+                </div>
+                <div class="column">
+                    <p><strong>大湾区成员设置</strong></p>
+                    <p >广州 &nbsp;&nbsp; 深圳 </p>
+                    <p >珠海 &nbsp;&nbsp; 香港</p>
+                    <p >澳门</p>
+
+                </div>
+                <div class="column">
+                    <p><strong>学术方向</strong></p>
+                    <p>粤港澳高校联盟</p>
+                    <p>大湾区青年就业</p>
+                    <p>大湾区高校竞赛</p>
+                    <p>粤港澳高校交流活动   </p>
+                </div>
+                <div class="column">
+                    <p><strong> 相关链接</strong></p>
+                    <p> 雅思考试</p>
+                    <p> 禁毒教育</p>
+                    <p> 疫苗宣传</p>
+                    <p> 人才招聘</p>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <script src="translate.js"></script>
+    <script src="js/slider.js"></script> <!-- 引入轮播图的JavaScript文件 -->
+    <script src="js/scripts.js"></script>
+    <script src="js/slider2.js"></script>
+</body>
+
+</html>
